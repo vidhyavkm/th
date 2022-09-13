@@ -1,0 +1,31 @@
+there are 4 pillars of advance javascript.
+
+1.callback
+2.promise
+3.fetch api
+4.async/await=> it is an alternative for fetch=> syntatcic sugar=> easiest way to write a code.
+returns a promise,,,, await=> .then
+error handling=> try catch
+
+syntax: async function functionname(){
+    await fetch(url)
+}
+
+what is fetch? it is an alternate method for XHR
+to get datas from an api .
+
+old method=> XHR=> output object=> used for client server communication
+request, open, send, onload=> it is a time consuming process.
+to overcome this , fetch is introduced.
+
+syntax: fetch("api url")
+
+fetch is always returns a promise
+inisde the promise , inisde the body , the dats are in readable stream format
+we cant do anything with this. we need a data format output.
+we have to change this into json format.
+for that we have to chage this into .json() method.
+
+before that we ahve to j=handle thos fetch.(.then 2 times)
+
+mockapi=> CRUD=> create, read , update,delete.
